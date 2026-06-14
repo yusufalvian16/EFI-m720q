@@ -52,7 +52,7 @@ Jika PC M720q Anda adalah versi barebone tanpa chip M.2 Intel Wi-Fi/Bluetooth, `
 ### 4. Solusi NTFS (Hardisk Eksternal Windows)
 macOS secara *default* tidak bisa menulis (*write*) ke dalam format NTFS. Apple telah mencabut *driver* internal NTFS sejak macOS Sonoma/Sequoia. Solusi gratis terbaik saat ini adalah dengan menginstal aplikasi **Hasleo NTFS for Mac** agar bisa *copy-paste* ke hardisk eksternal.
 
-> **Catatan Troubleshoot Audio:** Jika tiba-tiba suara macOS drop/menghilang (*ducking glitch*) sesaat setelah muncul *pop-up* izin administrator dari sistem, jalankan `sudo killall coreaudiod` di Terminal untuk me-refresh *driver* suara.
+> **Catatan Troubleshoot Audio:** Jika tiba-tiba suara macOS drop/menghilang (*ducking glitch*) sesaat setelah muncul *pop-up* izin administrator dari sistem, Anda cukup menjalankan aplikasi **Reset Audio.app** yang telah disediakan di folder `Tools` dalam repositori ini untuk me-refresh *driver* suara.
 
 ---
 *Dokumentasi ini diupdate secara otomatis paska optimasi stabilitas (CPUFriend, Jaringan, dan Estetika) untuk mempermudah proses instalasi di masa mendatang bagi hardware Lenovo B360.*
